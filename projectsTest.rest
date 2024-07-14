@@ -1,0 +1,41 @@
+GET http://localhost:5000/alex
+
+####
+
+GET http://localhost:5000/api/projects
+
+####
+
+GET http://localhost:5000/api/projects/3
+
+####
+
+POST http://localhost:5000/api/projects
+Content-Type: application/json
+
+{
+    "name": "Alex",
+    "description": "Alex Handley attempting the Sprint13-Challenge of Building RESTful APIs with Express.",
+    "completed": false
+}
+
+####
+
+PUT http://localhost:5000/api/projects/2
+Content-Type: application/json
+
+{
+    "name": "Alex3",
+    "description": "Successful POST!!",
+    "completed": true
+}
+
+####
+
+DELETE http://localhost:5000/api/projects/5
+
+####
+
+GET http://localhost:5000/api/projects/1/actions
+
+####

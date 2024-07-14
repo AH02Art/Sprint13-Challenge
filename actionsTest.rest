@@ -1,0 +1,37 @@
+GET http://localhost:5000/api/actions/jacob
+
+####
+
+GET http://localhost:5000/api/actions
+
+####
+
+GET http://localhost:5000/api/actions/2
+
+####
+
+POST http://localhost:5000/api/actions
+Content-Type: application/json
+
+{
+    "project_id": 2,
+    "description" : "Action description",
+    "notes": "Notes goes here",
+    "completed": false
+}
+
+####
+
+PUT http://localhost:5000/api/actions/1
+Content-Type: application/json
+
+{
+    "project_id": 3,
+    "description" : "tortor",
+    "notes": "Changed notes",
+    "completed": true
+}
+
+####
+
+DELETE http://localhost:5000/api/actions/2
