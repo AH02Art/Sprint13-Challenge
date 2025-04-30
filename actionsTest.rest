@@ -6,7 +6,7 @@ GET http://localhost:5000/api/actions
 
 ####
 
-GET http://localhost:5000/api/actions/2
+GET http://localhost:5000/api/actions/1
 
 ####
 
